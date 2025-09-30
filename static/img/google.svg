@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 119.2 27.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #808285;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: .25;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        opacity: .2;
+      }
+
+      .cls-4 {
+        opacity: .12;
+      }
+
+      .cls-5 {
+        fill: url(#Unbenannter_Verlauf_2);
+      }
+
+      .cls-6 {
+        fill: url(#Unbenannter_Verlauf_4);
+      }
+
+      .cls-7 {
+        fill: url(#Unbenannter_Verlauf_5);
+      }
+
+      .cls-8 {
+        fill: url(#Unbenannter_Verlauf_3);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_5" data-name="Unbenannter Verlauf 5" x1="3174.46" y1="1355.93" x2="3160.68" y2="1363.04" gradientTransform="translate(-4178.74 -3466.76) scale(1.32 2.56)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00a0ff"/>
+      <stop offset="0" stop-color="#00a1ff"/>
+      <stop offset=".26" stop-color="#00beff"/>
+      <stop offset=".51" stop-color="#00d2ff"/>
+      <stop offset=".76" stop-color="#00dfff"/>
+      <stop offset="1" stop-color="#00e3ff"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_2" data-name="Unbenannter Verlauf 2" x1="3740.39" y1="2967.21" x2="3715.1" y2="2967.21" gradientTransform="translate(-3854.33 -2577.8) scale(1.04 .87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe000"/>
+      <stop offset=".41" stop-color="#ffbd00"/>
+      <stop offset=".78" stop-color="orange"/>
+      <stop offset="1" stop-color="#ff9c00"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_3" data-name="Unbenannter Verlauf 3" x1="2718.9" y1="2151.57" x2="2704.42" y2="2170.36" gradientTransform="translate(-4616.4 -2809.25) scale(1.7 1.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3a44"/>
+      <stop offset="1" stop-color="#c31162"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_4" data-name="Unbenannter Verlauf 4" x1="2707.74" y1="2135.15" x2="2714.21" y2="2143.54" gradientTransform="translate(-4616.4 -2810.21) scale(1.7 1.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32a071"/>
+      <stop offset=".07" stop-color="#2da771"/>
+      <stop offset=".48" stop-color="#15cf74"/>
+      <stop offset=".8" stop-color="#06e775"/>
+      <stop offset="1" stop-color="#00f076"/>
+    </linearGradient>
+  </defs>
+  <g id="g1231">
+    <path id="path1192" class="cls-7" d="M.49.43c-.31.34-.49.86-.49,1.53v23.97c0,.67.18,1.19.51,1.52l.08.07,13.43-13.43v-.3L.58.36s-.08.07-.08.07Z"/>
+    <path id="path1203" class="cls-5" d="M18.49,18.58l-4.48-4.48v-.31l4.48-4.48.1.06,5.3,3.01c1.52.86,1.52,2.26,0,3.13l-5.3,3.01s-.1.06-.1.06h0Z"/>
+    <path id="path1210" class="cls-8" d="M18.58,18.52l-4.58-4.58L.49,27.46c.49.53,1.32.59,2.25.07l15.84-9.01"/>
+    <path id="path1223" class="cls-6" d="M18.58,9.36L2.75.37C1.82-.16.99-.09.49.44l13.51,13.5,4.58-4.58Z"/>
+    <path id="path1225" class="cls-3" d="M18.49,18.42L2.76,27.36c-.88.51-1.66.47-2.17.01l-.08.08.08.07c.51.46,1.29.49,2.17-.01l15.84-9-.11-.1Z"/>
+    <path id="path1227" class="cls-4" d="M23.88,15.35l-5.41,3.07.1.1,5.3-3.01c.76-.43,1.13-1,1.13-1.57-.05.52-.43,1.01-1.12,1.41h0Z"/>
+    <path id="path1229" class="cls-2" d="M2.75.52l21.14,12.01c.69.39,1.07.89,1.13,1.41,0-.57-.37-1.13-1.13-1.57L2.75.37C1.23-.5,0,.22,0,1.96v.16C0,.38,1.23-.33,2.75.52Z"/>
+  </g>
+  <g id="g1237">
+    <path id="path1233" class="cls-1" d="M30.18,13.18c0-3.84,3.23-6.97,7.07-6.97,2.12,0,3.63.83,4.77,1.92l-1.34,1.34c-.81-.76-1.92-1.36-3.43-1.36-2.8,0-5,2.26-5,5.06s2.19,5.06,4.99,5.06c1.82,0,2.85-.73,3.52-1.39.54-.54.9-1.32,1.04-2.39h-4.55v-1.9h6.4c.07.34.1.75.1,1.19,0,1.43-.39,3.19-1.65,4.45-1.22,1.27-2.79,1.95-4.86,1.95-3.84,0-7.07-3.12-7.07-6.97h0ZM48.93,11.18c-2.48,0-4.5,1.89-4.5,4.48s2.02,4.48,4.5,4.48,4.5-1.9,4.5-4.49-2.02-4.48-4.5-4.48ZM48.93,18.38c-1.36,0-2.53-1.12-2.53-2.72s1.17-2.72,2.53-2.72,2.53,1.1,2.53,2.72-1.17,2.72-2.53,2.72ZM58.75,11.18c-2.48,0-4.5,1.89-4.5,4.48s2.02,4.48,4.5,4.48,4.5-1.9,4.5-4.49-2.02-4.48-4.5-4.48h0ZM58.75,18.38c-1.36,0-2.53-1.12-2.53-2.72s1.17-2.72,2.53-2.72,2.53,1.1,2.53,2.72-1.17,2.72-2.53,2.72h0ZM70.8,11.45v.73h-.07c-.44-.53-1.29-1-2.36-1-2.24,0-4.3,1.97-4.3,4.5s2.06,4.47,4.3,4.47c1.07,0,1.92-.47,2.36-1.02h.07v.64c0,1.72-.92,2.63-2.39,2.63-1.21,0-1.95-.87-2.26-1.6l-1.72.71c.49,1.19,1.8,2.65,3.98,2.65,2.31,0,4.26-1.36,4.26-4.67v-8.06h-1.87ZM68.54,18.38c-1.36,0-2.5-1.14-2.5-2.7s1.14-2.73,2.5-2.73,2.39,1.15,2.39,2.73c0,1.56-1.05,2.7-2.39,2.7ZM74.03,6.69h1.97v13.18h-1.97V6.69ZM81.4,18.38c-1,0-1.72-.46-2.17-1.36l6-2.48-.21-.51c-.37-1-1.51-2.85-3.84-2.85s-4.23,1.82-4.23,4.49c0,2.51,1.9,4.48,4.45,4.48,2.06,0,3.25-1.26,3.74-1.99l-1.53-1.02c-.51.75-1.21,1.24-2.21,1.24h0ZM81.25,12.91c.78,0,1.44.39,1.66.95l-4.01,1.67c-.05-1.73,1.34-2.62,2.35-2.62h0Z"/>
+    <path id="path1235" class="cls-1" d="M93.88,6.69h-4.71v13.18h1.97v-4.99h2.75c2.18,0,4.33-1.58,4.33-4.1s-2.14-4.09-4.32-4.09h0ZM93.93,13.05h-2.8v-4.52h2.8c1.47,0,2.31,1.22,2.31,2.26s-.84,2.26-2.31,2.26ZM101.26,19.87V6.69h-1.97v13.18h1.97ZM110.09,19.85v-5.05c0-2.34-1.75-3.65-4.01-3.65-1.42,0-2.9.63-3.51,2.02l1.75.73c.37-.73,1.07-.97,1.8-.97,1.02,0,2.05.61,2.07,1.7v.14c-.36-.2-1.12-.51-2.05-.51-1.88,0-3.8,1.03-3.8,2.97,0,1.77,1.54,2.9,3.27,2.9,1.32,0,2.05-.59,2.51-1.29h.07v1.02h1.9ZM105.85,18.38c-.64,0-1.54-.32-1.54-1.12,0-1.02,1.12-1.41,2.09-1.41.87,0,1.27.19,1.8.44-.15,1.18-1.15,2.07-2.34,2.09h0ZM117.01,11.44l-2.26,5.71h-.07l-2.34-5.71h-2.12l3.51,7.99-2,4.44h2.05l5.41-12.43h-2.19Z"/>
+  </g>
+</svg>

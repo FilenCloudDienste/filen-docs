@@ -46,6 +46,12 @@ export function HomepageHeader() {
 					>
 						WEB
 					</Link>
+					<Link
+						className="button button--secondary button--lg"
+						to="/docs/mobile"
+					>
+						MOBILE
+					</Link>
 				</div>
 			</div>
 		</header>

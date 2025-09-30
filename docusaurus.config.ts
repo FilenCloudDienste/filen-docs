@@ -113,6 +113,12 @@ const config: Config = {
 					label: "WEB"
 				},
 				{
+					type: "docSidebar",
+					sidebarId: "mobileSidebar",
+					position: "left",
+					label: "MOBILE"
+				},
+				{
 					href: "https://github.com/FilenCloudDienste",
 					label: "GitHub",
 					position: "right"
