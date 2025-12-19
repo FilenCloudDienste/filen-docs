@@ -2,6 +2,7 @@ import { themes as prismThemes } from "prism-react-renderer"
 import { type Config } from "@docusaurus/types"
 import type * as Preset from "@docusaurus/preset-classic"
 import type * as OpenAPIPreset from "docusaurus-preset-openapi"
+import remarkGithubAdmonitionsToDirectives from "remark-github-admonitions-to-directives"
 
 const config: Config = {
 	title: "Filen Docs",
@@ -54,7 +55,8 @@ const config: Config = {
 				},
 				docs: {
 					sidebarPath: "./sidebars.ts",
-					routeBasePath: "/docs"
+					routeBasePath: "/docs",
+					beforeDefaultRemarkPlugins: [remarkGithubAdmonitionsToDirectives]
 				},
 				theme: {
 					customCss: "./src/css/custom.css"

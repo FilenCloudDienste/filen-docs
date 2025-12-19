@@ -1,0 +1,8 @@
+{
+	"label": "CLI (RS)",
+	"position": 10,
+	"link": {
+		"type": "generated-index",
+		"description": "Documentation of the Filen CLI (Rust)."
+	}
+}
