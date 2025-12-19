@@ -10,3 +10,7 @@ This is a Rust rewrite of [FilenCloudDienste/filen-cli](https://github.com/Filen
 This rewrite aims to improve the Filen CLI in multiple ways:
 - Significantly reduced download size from up to 130MB to ~5MB.
 - Significantly improved performance, especially startup performance, which is critical for CLI applications (because we're using Rust instead of TypeScript).
+
+<!-- v0.2.1 -->
+
+<small style={{opacity: 0.5}}>Documentation for Filen CLI **v0.2.1**</small>
