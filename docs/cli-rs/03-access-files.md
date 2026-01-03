@@ -26,9 +26,10 @@
 > Show information about a file, a directory or the Filen drive  
 > 🠊 `<FILE_OR_DIRECTORY>` File or directory to show information about ("/" for the Filen drive)
 
-> `mkdir <DIRECTORY>`  
+> `mkdir [OPTIONS] <DIRECTORY>`  
 > Create a new directory  
-> 🠊 `<DIRECTORY>` Directory to create
+> 🠊 `<DIRECTORY>` Directory to create  
+> 🠊 `-r, --recursive` Recursively create parent directories
 
 > `rm [OPTIONS] <FILE_OR_DIRECTORY>`  
 > Remove a file or directory  
