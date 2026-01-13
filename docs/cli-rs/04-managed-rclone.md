@@ -10,3 +10,6 @@ It is automatically downloaded and configured (authenticated) when you run the `
 > `rclone [CMD]...`  
 > Execute an Rclone command using filen-rclone  
 > 🠊 `[CMD]...` The command to execute. Your Filen drive is available as the "filen" remote
+
+> `export-api-key`  
+> Exports your user API key (for use with non-managed Rclone)
