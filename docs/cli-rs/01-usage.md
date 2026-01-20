@@ -1,6 +1,6 @@
 # Usage
 
-Welcome to Filen CLI v0.2.3!
+Welcome to Filen CLI v0.2.4!
 
 Invoke the Filen CLI with no command specified to enter interactive mode (REPL).
 There, you can specify absolute paths (starting with "/") or relative paths (supports "." and "..").
