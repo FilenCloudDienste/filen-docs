@@ -1,6 +1,6 @@
 # Usage
 
-Welcome to Filen CLI v0.2.4!
+Welcome to Filen CLI v0.2.5!
 
 Invoke the Filen CLI with no command specified to enter interactive mode (REPL).
 There, you can specify absolute paths (starting with "/") or relative paths (supports "." and "..").
@@ -25,6 +25,8 @@ There, you can specify absolute paths (starting with "/") or relative paths (sup
   Skip checking for updates  
 - `--force-update-check`  
   Force checking for updates  
+- `--always-update`  
+  Force checking for updates and install them automatically. Usually, updates are only installed in REPL mode  
 - `--json`  
   Format command output as machine-readable JSON (where applicable)  
 - `-V, --version`  
