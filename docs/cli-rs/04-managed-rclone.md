@@ -18,7 +18,7 @@ It is automatically downloaded and configured (authenticated) when you run the c
 > Runs a WebDAV, FTP, SFTP or HTTP server exposing your Filen drive  
 > 🠊 `<SERVER>` The type of server to run: webdav, ftp, sftp, http  
 > 🠊 `[RCLONE_ARGS]...` Additional arguments to Rclone  
-> 🠊 `--addr <ADDRESS>` IP and port for the server ("<ip>:<port>" or ":<port>") [default: :80]  
+> 🠊 `--addr <ADDRESS>` IP and port for the server (`<ip>:<port>` or `:<port>`) [default: :80]  
 > 🠊 `--root <ROOT>` Directory that the server exposes (default: the entire Filen drive)  
 > 🠊 `--user <USER>` Username for authentication to the server (default: no authentication). On S3 servers, this is the Access Key ID  
 > 🠊 `--password <PASSWORD>` Password for authentication to the server (default: no authentication). On S3 servers, this is the Secret Access Key  
