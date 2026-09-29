@@ -6,9 +6,10 @@
 > Change the working directory (in REPL)  
 > 🠊 `<DIRECTORY>` Directory to navigate into (supports "..")
 
-> `ls [DIRECTORY]`  
+> `ls [OPTIONS] [DIRECTORY]`  
 > List files in a directory  
-> 🠊 `[DIRECTORY]` Directory to list files in (default: the current working directory)
+> 🠊 `[DIRECTORY]` Directory to list files in (default: the current working directory)  
+> 🠊 `-l, --long` Use a long listing format with file sizes
 
 > `cat <FILE>`  
 > Print the contents of a file  
@@ -28,6 +29,10 @@
 > Show information about a file, a directory or the Filen drive  
 > 🠊 `<FILE_OR_DIRECTORY>` File or directory to show information about ("/" for the Filen drive)
 
+> `search [QUERY]`  
+> Search for a file or directory interactively, or specify a query  
+> 🠊 [QUERY]
+
 > `mkdir [OPTIONS] <DIRECTORY>`  
 > Create a new directory  
 > 🠊 `<DIRECTORY>` Directory to create  
@@ -39,14 +44,17 @@
 > 🠊 `-p, --permanent` Permanently delete the file or directory (default: move to trash)
 
 > `mv <SOURCE> <DESTINATION>`  
-> Move a file or directory  
+> Move and/or rename a file or directory  
 > 🠊 `<SOURCE>` Source file or directory  
-> 🠊 `<DESTINATION>` Destination parent directory
+> 🠊 `<DESTINATION>` Destination: an existing directory to move the source into, or the new path of the source (to move and/or rename it)
 
 > `cp <SOURCE> <DESTINATION>`  
 > Copy a file or directory  
 > 🠊 `<SOURCE>` Source file or directory  
 > 🠊 `<DESTINATION>` Destination parent directory
+
+> `list-favorites`  
+> List favorited items
 
 > `favorite <FILE_OR_DIRECTORY>`  
 > Favorite a file or directory  
@@ -56,8 +64,24 @@
 > Unfavorite a file or directory  
 > 🠊 `<FILE_OR_DIRECTORY>` File or directory to unfavorite
 
+> `list-recents`  
+> List recently accessed items
+
 > `list-trash`  
-> List trashed items with option to restore or permanently delete them
+> List trashed items
+
+> `trash-restore`  
+> Restore a trashed item interactively
+
+> `trash-delete`  
+> Permanently delete a trashed item interactively
 
 > `empty-trash`  
 > Permanently delete all trashed items
+
+> `list-public-links`  
+> List public links
+
+> `public-link <FILE_OR_DIRECTORY>`  
+> Create, update or delete a public link for a file or directory  
+> 🠊 `<FILE_OR_DIRECTORY>` File or directory to create, update or delete a public link for

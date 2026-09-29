@@ -2,14 +2,14 @@
 
 📩 [Releases](https://github.com/FilenCloudDienste/filen-cli-releases/releases) | 📖 [Documentation](https://docs.filen.io/docs/cli-rs/readme) | 📜 [Source](https://github.com/FilenCloudDienste/filen-rs/tree/main/filen-cli)
 
-The Filen CLI provides a set of useful tools for interacting with your Filen cloud drive, like managing files and directories.
+The Filen CLI provides a set of useful tools for interacting with your Filen cloud drive, like managing files and directories, and more.
 Start it without specifying a command to enter interactive mode.
 For now, syncing, drive mounting, etc. are available through the managed Rclone, which [accesses Filen](https://rclone.org/filen).
 
 > [!WARNING]
 > **Public Beta:**
 > This is the Rust rewrite of [`FilenCloudDienste/filen-cli`](https://github.com/FilenCloudDienste/filen-cli), which has been [sunsetted](https://github.com/FilenCloudDienste/filen-cli?tab=readme-ov-file#sunsetting-filen-cli).
-> While it aims to fully replace it, it is currently in open beta: Some functionality is still missing, and *there might be bugs*. 
+> While it aims to fully replace it, it is currently in open beta: Some functionality might still be missing, and _there might be bugs_.
 
 > [!NOTE]
 > Please **report bugs** on our [issues page at `filen-rs`](https://github.com/FilenCloudDienste/filen-rs/issues?q=label%3Acli)! \
@@ -17,14 +17,15 @@ For now, syncing, drive mounting, etc. are available through the managed Rclone,
 
 ## Installation and updates
 
-💻 **Linux** and **macOS**: 
+💻 **Linux** and **macOS**:
+
 ```bash
 curl -sL https://raw.githubusercontent.com/FilenCloudDienste/filen-rs/refs/heads/main/filen-cli/install.sh | bash
 ```
 
-💻 **Windows**: Download the latest binaries from the [release page](https://github.com/FilenCloudDienste/filen-cli-releases/releases/latest). 
+💻 **Windows**: Download the latest binaries from the [release page](https://github.com/FilenCloudDienste/filen-cli-releases/releases/latest).
 
-🐋 Docker images are also available as [`filen/cli`](https://hub.docker.com/repository/docker/filen/cli) (you need to specify a version instead of using `:latest`).
+🐋 Docker images are also available as [`filen/cli`](https://hub.docker.com/r/filen/cli/tags) (you need to specify a version instead of using `:latest`).
 
 The CLI includes an automatic updater.
 
@@ -32,6 +33,7 @@ The CLI includes an automatic updater.
 
 You can find documentation from within the CLI using the `help` or `view-html-docs` subcommand and at [docs.filen.io](https://docs.filen.io/docs/cli-rs/readme/).
 
-<!-- v0.2.7 -->
 
-<small style={{opacity: 0.5}}>Documentation for Filen CLI **v0.2.7**</small>
+<!-- v0.2.8 -->
+
+<small style={{opacity: 0.5}}>Documentation for Filen CLI **v0.2.8**</small>
