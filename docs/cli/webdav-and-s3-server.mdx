@@ -55,6 +55,8 @@ You must specify credentials (Access Key ID and Secret Access Key) for connectin
 
 **Important:** When connecting to the S3 server, you need to enable `s3ForcePathStyle` and set the region to `filen`.
 
+If you're connecting from Python, the community package [`df-s3-filen-wrapper`](https://pypi.org/project/df-s3-filen-wrapper/) gives you a boto3 client with these settings already applied. It also works around a few gateway differences, for example multipart uploads not being supported. To run the S3 server on Kubernetes, see [Using Kubernetes](/docs/cli#using-kubernetes).
+
 For more information, including on S3 compatibility, see also [FilenCloudDienste/filen-s3 on GitHub](https://github.com/FilenCloudDienste/filen-s3).
 
 Options:

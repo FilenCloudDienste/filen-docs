@@ -72,3 +72,16 @@ services:
             --w-user <...>
             --w-password <...>
 ```
+
+## Using Kubernetes
+
+For Kubernetes, the community project [`df-s3-filen-wrapper`](https://github.com/JustinGuese/df-s3-filen-wrapper) includes a [Helm chart](https://github.com/JustinGuese/df-s3-filen-wrapper/tree/main/kubernetes) that runs the [S3 server](/docs/cli/webdav-and-s3-server#s3-server) behind an Ingress. It keeps your Filen credentials in a Kubernetes Secret and generates the S3 access key and secret for you:
+
+```
+$ git clone https://github.com/JustinGuese/df-s3-filen-wrapper
+$ helm install filen-s3 ./df-s3-filen-wrapper/kubernetes \
+    --namespace filen --create-namespace \
+    --set filen.email=<...> \
+    --set filen.password=<...> \
+    --set ingress.host=<...>
+```
