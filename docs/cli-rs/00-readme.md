@@ -80,6 +80,6 @@ The main differences:
 `filen help migration` covers all of it, including why.
 
 
-<!-- v0.3.0 -->
+<!-- v0.3.1 -->
 
-<small style={{opacity: 0.5}}>Documentation for Filen CLI **v0.3.0**</small>
+<small style={{opacity: 0.5}}>Documentation for Filen CLI **v0.3.1**</small>
